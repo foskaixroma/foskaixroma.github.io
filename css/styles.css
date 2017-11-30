@@ -1,0 +1,124 @@
+body{
+  font-family: Comfortaa,Tinos,sans-serif;
+  font-size: 15px;
+  line-height:1.5;
+
+  padding:0;
+  margin:0;
+
+}
+
+.container {
+  margin:0 auto;
+  padding:0;
+  width:100%;
+  height:100%;
+  overflow:hidden;
+
+}
+.sect {
+  width:100%;
+  margin: 1% auto;
+  padding:0;
+}
+
+
+
+
+
+#logoImg {
+  margin: 25px auto;
+  height:10%;
+  display:block;
+
+}
+ #logoText {
+   margin:-10px auto 1% auto;
+   height:10%;
+   display:block;
+ }
+
+#banner {
+margin:0 auto;
+padding:0;
+height:10%;
+overflow:hidden;
+
+}
+
+#banner img{
+margin:0 auto  ;
+padding:0 ;
+width:100%;
+display:block;
+
+
+}
+
+#message{
+  margin:20px auto;
+  font-size: 100%;
+  font-weight: bold;
+  text-align: center;
+  font-kerning: 30;
+  color: #3e627e;
+}
+.sect {
+  width:100%;
+  min-height:75%;
+}
+#fb_link  {
+  margin:10px auto;
+  width:300px;
+
+}
+#fb_link img {
+
+  display:block;
+  width:200px;
+  margin:3em auto;
+
+}
+footer {
+  margin:0;
+  width:100%;
+  min-height:7em;
+  /*position:absolute;
+  bottom:0;*/
+  background-color: #f79406;
+
+}
+ footer p{
+  margin:0 auto;
+  padding:10px 0 10px 0;
+  text-align: center;
+  font-size:100%;
+  width:100%;
+  color:white;
+  background-color: #f57708;
+ }
+
+#contact{
+    width:80%;
+    margin:0 auto;
+    padding:1em 0 2em 0;
+    display:block;
+    text-align: center;
+    width:80%;
+
+}
+  footer a {
+    margin: 1em 2em 1em 2em;
+    font-size:100%;
+    color:white;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  footer a img {
+    margin : 0 .3em 0 0 ;
+    height:1.3em;
+    position: relative;
+    top: .25em;
+    white-space: nowrap;
+  }
