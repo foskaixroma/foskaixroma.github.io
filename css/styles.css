@@ -176,6 +176,8 @@ footer #contact{
       font-size:90%;
 
     }
-
+    footer a span {
+      font-size: 70%;
+    }
 
 }
