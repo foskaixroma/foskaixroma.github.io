@@ -64,7 +64,10 @@ display:block;
 }
 
 #message{
-  margin:0 auto;
+  margin:0;
+  padding:0;
+  position:relative;
+  bottom:20%;
   font-size: 100%;
   font-weight: bold;
   text-align: center;
@@ -122,7 +125,7 @@ footer #contact{
 
 }
   footer a {
-    margin: 1em 2em 1em 2em;
+    margin: 1em 1em 1em 1em;
     font-size:100%;
     color:white;
     text-decoration: none;
@@ -162,6 +165,8 @@ footer #contact{
     #fb_link img {
       width:100px;
     }
+    footer #contact{
+        width:90%;}
 
     footer p{
       font-size: 70%;
