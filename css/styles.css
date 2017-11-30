@@ -34,7 +34,7 @@ body{
 
 #logoImg {
   margin: 25px auto 0 auto;
-  max-width: 30%;
+  max-width: 20%;
   display:block;
 
 }
@@ -64,7 +64,7 @@ display:block;
 }
 
 #message{
-  margin:2% auto;
+  margin:0 auto;
   font-size: 100%;
   font-weight: bold;
   text-align: center;
@@ -72,29 +72,30 @@ display:block;
   color: #3e627e;
 }
 .sect {
+  margin:0;
+  padding:0;
   width:100%;
   min-height:75%;
 }
 #fb_link  {
   margin:10px auto;
-  width:300px;
+  width:200px
 
 }
 #fb_link img {
 
   display:block;
   width:200px;
-  margin:3em auto;
+  margin:2em auto;
 
 }
 footer {
   margin:0;
   padding:0;
   width:100%;
-  
-
   position:absolute;
   bottom:0;
+  top:auto;
   background-color: #f79406;
 
 }
@@ -150,13 +151,17 @@ footer #contact{
     #logoText{
     width:300px;
     }
-    #banner {
+    #message {
+      font-size: 70%;
 
     }
 
+    footer p{
+      font-size: 90%;
+    }
     footer a {
       margin: 1em 2em 1em 2em;
-      font-size:80%;
+      font-size:90%;
 
     }
 
