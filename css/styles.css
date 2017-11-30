@@ -8,21 +8,24 @@ body{
   margin-top:0;
   margin-bottom:0;
   padding:0;
+  box-sizing: border-box;
 
 }
 
 .container {
-  margin:0;
+  margin:0 ;
   padding:0;
-  width:100%;
-  height:30%;
-  overflow:hidden;
+  height:90%;
+
 
 }
 .sect {
   width:100%;
+  height:15%;
   margin: 1% auto;
   padding:0;
+  box-sizing: border-box;
+  display:block;
 }
 
 
@@ -30,36 +33,38 @@ body{
 
 
 #logoImg {
-  margin: 25px auto;
+  margin: 25px auto 0 auto;
   max-width: 30%;
   display:block;
 
 }
  #logoText {
-   margin:-10px auto 1% auto;
-   max-width:50%;
+   margin:-30px auto 1% auto;
+   width:400px;
    display:block;
+   box-sizing: border-box;
  }
 
 #banner {
-margin:0 auto;
+margin:0 0;
 padding:0;
-height:10%;
+height:70%;
 overflow:hidden;
 
 }
 
 #banner img{
-margin:0 auto  ;
+margin:0 0  ;
 padding:0 ;
 width:100%;
+height:20%;
 display:block;
 
 
 }
 
 #message{
-  margin:20px auto;
+  margin:2% auto;
   font-size: 100%;
   font-weight: bold;
   text-align: center;
@@ -84,10 +89,12 @@ display:block;
 }
 footer {
   margin:0;
+  padding:0;
   width:100%;
-  min-height:7em;
-  /*position:absolute;
-  bottom:0;*/
+  height:18%;
+
+  position:absolute;
+  bottom:0;
   background-color: #f79406;
 
 }
@@ -125,3 +132,33 @@ footer {
     top: .25em;
     white-space: nowrap;
   }
+
+
+
+  /*Media */
+@media screen and (min-width:600px)
+{
+
+}
+
+
+@media screen and (max-width:599px){
+
+    #logoImg{
+      width:150px;
+    }
+    #logoText{
+    width:300px;
+    }
+    #banner {
+
+    }
+
+    footer a {
+      margin: 1em 2em 1em 2em;
+      font-size:80%;
+
+    }
+
+
+}
